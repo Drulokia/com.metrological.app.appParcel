@@ -1,0 +1,16 @@
+{
+  "name": "com.metrological.app.appParcel",
+  "description": "appParcel",
+  "scripts": {
+    "start": "parcel src/clean/index.html --open",
+    "startworking": "parcel src/working/index.html --open",
+    "build": "parcel build src/clean/index.html",
+    "buildworking": "parcel build /src/working/index.html"
+  },
+  "dependencies": {
+    "@lightningjs/sdk": "^5.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
